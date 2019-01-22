@@ -2,17 +2,59 @@
 <meta charset="UTF-8">
 <html>
 <head>
+
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+				
+			<script type="text/javascript" src= "jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.dropdown').draggable();
+	$('.imageSource').draggable();
+		});
+
+		function scrollimages( loc )
+		{
+			$('.row').scrollLeft(loc);
+
+		}
+	
+
+
+	</script>
+				
+							
+							
+
 
 	<title>In 4 years I'll have the same age my mother had when I destroyed her uterus</title>
 </head>
 <body>
 
+<div class="dropdown">
+  <img id= "emoji" src="image/fleur4.png" alt="which one?">
+  <div class="dropdown-content">
+  	<a href="file:///Users/rebeccajoly/Documents/GitHub/go-theses-19-rebecca-joly/index.html"><img id="img" src="image/img_00.jpg" alt="chp2, I'm the American Dream"></a>
+<!--   <div class="desc">I'm a virgin</div>
+ -->  <a href="file:///Users/rebeccajoly/Documents/GitHub/go-theses-19-rebecca-joly/chp2.html"><img id="img" src="chp02/img_0001.jpg" alt="chp2, I'm the American Dream"></a>
+<!--   <div class="desc">I'm the American Dream</div>
+ -->  <a href="file:///Users/rebeccajoly/Documents/GitHub/go-theses-19-rebecca-joly/chp3.html"><img id="img" src="chp03/img_01.jpg" alt="Brunettes are so hot right now"></a>
+<!--   <div class="desc">Brunettes are so hot right now</div>
+ -->  <a href="file:///Users/rebeccajoly/Documents/GitHub/go-theses-19-rebecca-joly/chp4.html"><img id="img" src="chp04/img_01.jpg" alt="THE BIGGER THE BETTER"></a>
+<!--   <div class="desc">THE BIGGER THE BETTER</div>
+ -->  <a href="file:///Users/rebeccajoly/Documents/GitHub/go-theses-19-rebecca-joly/chp5.html"><img id="img" src="chp05/img_01.jpg" alt="Move bitch"></a>
+  <!-- <div class="desc">Move bitch</div> -->
+  <a href="file:///Users/rebeccajoly/Documents/GitHub/go-theses-19-rebecca-joly/chp6.html"><img id="img" src="chp06/img_01.jpg" alt="Sexsi"></a>
+  </div>
+  </div>
+</div>
+
 	<div class="wrapper">		
 		<div class="text">
-			<a> <div id="center">I'm a virgin<br><br><br><br><br>
-				</div></a>	
-			<a href="chp2.html">
+			<a> <div id="center">I'm a virgin<br><br></div></a>	
+			<a class="line" href="chp2.html">
 
 				I'M A VIRGIN // Chapter 1: “The successful project”
 			</a>
@@ -24,14 +66,14 @@
 				Now, I will introduce my characters: 
 				Someone will always speak first, and that someone will serve as the omniscient narrator. He knows everything about the world, he will try to explain it with simple words. 
 				The omniscient narrator will tell the story of a girl. 
-				She will also speak. You will witness her words but also her thoughts. And these thoughts will be the voice of her imaginary self. Her inner-self will have its own name. The name is <a style="color: green">Bo</a>.</p>
+				She will also speak. You will witness her words but also her thoughts. And these thoughts will be the voice of her imaginary self. Her inner-self will have its own name. The name is <span style="color: green">Bo</span>.</p>
 
 				<p>
 					Chapter One :“ The successful project ”
 				</p>
 				<p>
-					“ …si vous voulez comprendre quelque chose aux origines de l’homme, il vous faut bien d’abord remonter aux origines de tout ”. Vercors, author of Les Animaux Dénaturés, 1952 https://fr.wikipedia.org/wiki/Les_Animaux_d%C3%A9natur%C3%A9s
-					“…if you want to understand somtehing to man’s origines, you need to go back to the genesis of everything ”. —Vercors
+					 …si vous voulez comprendre quelque chose aux origines de l’homme, il vous faut bien d’abord remonter aux origines de tout ”. <a class="line" href="https://fr.wikipedia.org/wiki/Les_Animaux_d%C3%A9natur%C3%A9s">Vercors, author of Les Animaux Dénaturés, 1952 </a>
+					“…if you want to understand somtehing to man’s origines, you need to go back to the genesis of everything ”. <span onclick ="scrollimages(500)">—Vercors</span>
 				</p>
 				<p>
 					Part one: On the great purpose of Mankind (only the narrator speaks)
@@ -82,7 +124,7 @@
 
 
 
-					Part two (narrator+<a style="color: red">The Girl:</a>+<a style="color: green">Bo</a>):
+					Part two (narrator+<span style="color: red">The Girl:</span>+<span style="color: green">Bo</span>):
 					She was the first child. 
 					An—other* came 2 years after her 
 					And finally there was a boy. 
@@ -92,119 +134,118 @@
 					She looked at it with flared nostril and a bitter taste of disgust: 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a> 
+					<span style="color: red">The Girl:</span> 
 					So much hair! She sticked her tongue out. 
 					I don’t like to be framed, and I don’t want to. I wish there was something more iconic to celebrate newcomer me. “I remember you had so much hair when we visited your mother after her delivery”. That’s the classic anatomic detail my family remembered and love to remind me of. Defined by my hairy scalp and the shy furr adorning my small body. Well maybe it doesn’t matter if I belonged more to the monkey than the human race.
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Darwin used to say humans are animals among others, there is no such things as human supremacy.
-					She didn’t want to show weakness to <a style="color: green">Bo</a> and she disdainfully addressed him “I was obviously, already well aware of the place I belonged to. I take all credit for it. I made myself a hairy child! This genetic feature belongs to me… ” Now she was a bit red from the lie she was telling <a style="color: green">Bo</a> 
+					She didn’t want to show weakness to <span style="color: green">Bo</span> and she disdainfully addressed him “I was obviously, already well aware of the place I belonged to. I take all credit for it. I made myself a hairy child! This genetic feature belongs to me… ” Now she was a bit red from the lie she was telling <span style="color: green">Bo</span> 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>s:
+					<span style="color: red">The Girl:</span>
 					because now I remember I wanted it to be like a political statement! I was already politically engaged at that time / as soon as I was born.
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					At such an early age ! That superior blood of yours took over the wild and free animal you were. / 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					Fair enough, maybe I wasn’t aware of this, but I can be proud that my familly remembered me as a hairy child. 
 					“ …to remember me… ”. She stopped talking, now she really wanted to know and to remember what would it be, that thing that defined her. She realised that she had nothing to do with her own birth and that she belong to another project, something bigger, and she was angry she wasn’t part of the deliberations concerning her own fate. 
-					“ Hey but what was the first thing that defined me ”, she asked <a style="color: green">Bo</a>.
+					“ Hey but what was the first thing that defined me ”, she asked <span style="color: green">Bo</span>.
 				</p>
 				<p>
-					<a style="color: green">Bo</a>: 
-					what defines you ! <a style="color: green">Bo</a> was a bit overwelmed by the question and choosed to respond with a joke, because it was too much to handle, he thought to himself.
+					<span style="color: green">Bo</span>: 
+					what defines you ! <span style="color: green">Bo</span> was a bit overwelmed by the question and choosed to respond with a joke, because it was too much to handle, he thought to himself.
 					“Here I couldn’t even tell wether you’re a monkey or a human.” 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					Can you be serious for the sake of this sociological enterprise we’re having here...
 					Do you think it’s my name?
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					This must be it because that’s after knowing your sex they chose to give you a name. 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					So it’s my name. 
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Well First it’s your father’s name.
 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					Not that I don’t like my mother’s name but I like my father’s name better yet I don’t get why I should have my father’s. And sometimes when I try to go through the names of my mother, grandmothers then actually I end up lost in a cemetery of first names I don’t know about, I mean what if I wouldn’t have any name what if I would choose my own names. 
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					I mean at this time it wasn’t really something we discussed because that’s how it works and everybody was happy about it so...
 					Heredity was assure, the name would prosper and your parent’s project was a success. Your opinion was not really relevant at the time but... Now it’s your turn to choose. 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					What is there to choose? 
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Immortality
 				</p>
 				<p>
 
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					I’m not sure if immortality would suit me. 
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					As a girl you’re entitled to your biological destiny.
-					Once a woman forever a womb. <a style="color: green">Bo</a> was looking at her with malice
+					Once a woman forever a womb. <span style="color: green">Bo</span> was looking at her with malice
 				</p>
 				<p>
-					<img src="image/fleur.png" title="life goes onnn">
 
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					Will it be my utlimate goal then as a woman? To go 8 month on wales mode 2*. I mean woman don’t get pregnant every day like they did in prehistoric age. I can control my sexuality.
 					I don’t get why, since we stop considering woman as static beings. Why do we still have this pressure of becoming mother.
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Virgin and mother like Marie was. There you would reach perfection.
-					“ <a style="color: red">The Girl:</a> will be wife, mother, grandmother; she will take care of her house exactly as her mother does, she will take care of her children as she was taken care of: she is twelve years old, and her story is already written in the heavens; she will discover it day after day without shaping it; […]every of her step is planned in advance and toward which each day irrevocably moves her. ” 
+					“ <span style="color: red">The Girl:</span> will be wife, mother, grandmother; she will take care of her house exactly as her mother does, she will take care of her children as she was taken care of: she is twelve years old, and her story is already written in the heavens; she will discover it day after day without shaping it; […]every of her step is planned in advance and toward which each day irrevocably moves her. ” 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
-					<a style="color: green">Bo</a> can you stop dropping your science like that with these insanity.
-					<a style="color: green">Bo</a> had to quote Simone* on this, because he could bear this injustice.
+					<span style="color: red">The Girl:</span>
+					<span style="color: green">Bo</span> can you stop dropping your science like that with these insanity.
+					<span style="color: green">Bo</span> had to quote Simone* on this, because he could bear this injustice.
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					I’m letting you know what is ecxpected from you from an historical, objectiv point of view and from our several family diners get to know sessions it has always been implicit. 
 					Worst expectations’ discussion being the ones you have at weddings… the curious/obvious “Do you have a boyfriend”, the guilty “when are you gonna make us grand-children”, the winky “you’re next !”, or the classic “when are you get married”… 
 					But now that you mentioned prehistoric age, it can help us understand how the hierarchy of the sexes came to be.
 					With no contraception involved, the people soon realised woman got pregnant. Therefore woman were not in optimal capacity to fight, hunt and so on. Our worst curse is our exclusion from warrior expeditions because from an equal relation to man we became opressed.
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					Dahomey’s woman from the amazon escaped this status. They became great warriors and 
 					swer allegance to their king that took them all as wifes promissing him chastety. 
 					They would lay with no man or cut the head of their lovers in the night.
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Make cock neclaces out of their testicules’ enemy.
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					Lick their blood from their swords and scream with their amazon sisters. 
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Sure they did that.
 					it is not in giving life but in risking his life that man raises himself above the animal; this is why throughout humanity, superiority has been granted not to the sex that gives birth but to the one that kills.
 					but there is not a lot of woman who manage to access this priviledg.
@@ -215,24 +256,24 @@
 					But so they rejected their own nature. 
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					What do you mean by nature? Femininity? 
 					Motherhood?
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					yes, they would get rid of their female attributes for instance to through arrows they would cut one of their breast. They rejected motherhood or to have sex with man. 
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Right but your nature is not necessarly feminine. What does it even mean to be feminine? 
 				</p>
 				<p>
-					<a style="color: red">The Girl:</a>
+					<span style="color: red">The Girl:</span>
 					Well I think we explained how masculinity became. So Feminity should be seen as the opposit definition…? The only thing that tickles me in this story, is that I feel, by being mutilated breast warriors, refusing intercorse, they also remained in a masculin pattern/philosophy of life.(from a certain point of view)
 				</p>
 				<p>
-					<a style="color: green">Bo</a>:
+					<span style="color: green">Bo</span>:
 					Yeah but at that time, did they had a choice? At least they achieved to be respected et to get the same priviledg of being warrior status.</p>
 
 <div class="spacer"></div>
@@ -243,7 +284,7 @@
 						
 						<img src="image/img_00.jpg" title=" I'm a virgin
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: white" >
 							4 <p>“June 27 - Britney Goes To Moonshadows With A Friend - 
 							A pregnant Britney Spears shows off her growing belly with a sexy, short top and a sarong skirt. She and a pal went to Moonshadows restaurant in Malibu, perhaps to satisfy some of her pregnancy” 
 							source breatheheavy.com</p>
@@ -257,7 +298,7 @@
 						<img src="image/img_01.jpg" title="The Girl: 
 So much hair! She sticked her tongue out. 
 I don’t like to be framed, and I don’t want to. I wish there was something more iconic to celebrate newcomer me."><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: white" >
 							4 <p>“June 27 - Britney Goes To Moonshadows With A Friend - 
 							A pregnant Britney Spears shows off her growing belly with a sexy, short top and a sarong skirt. She and a pal went to Moonshadows restaurant in Malibu, perhaps to satisfy some of her pregnancy” 
 							source breatheheavy.com</p>
@@ -279,7 +320,7 @@ I don’t like to be framed, and I don’t want to. I wish there was something m
 						
 						<img src="image/img_020.jpg" title="Bo:
 Darwin used to say humans are animals among others, there is no such things as human supremacy."><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: green" >
 							4 <p>lalali</p>
 						</div>
 
@@ -290,7 +331,7 @@ Darwin used to say humans are animals among others, there is no such things as h
 
 						
 						<img src="image/img_02.jpg" title="She didn’t want to show weakness to Bo and she disdainfully addressed him “I was obviously, already well aware of the place I belonged to. I take all credit for it. "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>“June 27 - Britney Goes To Moonshadows With A Friend - 
 							A pregnant Britney Spears shows off her growing belly with a sexy, short top and a sarong skirt. She and a pal went to Moonshadows restaurant in Malibu, perhaps to satisfy some of her pregnancy” 
 							source breatheheavy.com</p>
@@ -302,7 +343,7 @@ Darwin used to say humans are animals among others, there is no such things as h
 
 						
 						<img src="image/img_0333.jpg" title="I made myself a hairy child!"><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>“June 27 - Britney Goes To Moonshadows With A Friend - 
 							A pregnant Britney Spears shows off her growing belly with a sexy, short top and a sarong skirt. She and a pal went to Moonshadows restaurant in Malibu, perhaps to satisfy some of her pregnancy” 
 							source breatheheavy.com</p>
@@ -316,7 +357,7 @@ Darwin used to say humans are animals among others, there is no such things as h
 because now I remember I wanted it to be like a political statement! I was already politically engaged at that time / as soon as I was born.
 I can be proud that my familly remembered me as a hairy child. 
 “ …to remember me… ”."><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: white" >
 							4 <p>“June 27 - Britney Goes To Moonshadows With A Friend - 
 							A pregnant Britney Spears shows off her growing belly with a sexy, short top and a sarong skirt. She and a pal went to Moonshadows restaurant in Malibu, perhaps to satisfy some of her pregnancy” 
 							source breatheheavy.com</p>
@@ -338,7 +379,7 @@ I can be proud that my familly remembered me as a hairy child.
 what defines you ! Bo was a bit overwelmed by the question and choosed to respond with a joke, because it was too much to handle, he thought to himself.
 “Here I couldn’t even tell wether you’re a monkey or a human.” 
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>“June 27 - Britney Goes To Moonshadows With A Friend - 
 							A pregnant Britney Spears shows off her growing belly with a sexy, short top and a sarong skirt. She and a pal went to Moonshadows restaurant in Malibu, perhaps to satisfy some of her pregnancy” 
 							source breatheheavy.com</p>
@@ -348,7 +389,7 @@ what defines you ! Bo was a bit overwelmed by the question and choosed to respon
 Can you be serious for the sake of this sociological enterprise we’re having here...
 Would it be my name?/Do you think it’s my name?
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -356,14 +397,14 @@ Would it be my name?/Do you think it’s my name?
 						<img src="image/img_018.jpg" title="Bo:
 This must be it because that’s after knowing your sex they chose to give you a name. 
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
 						</div>	<div class="loading">
 						<img src="image/img_09.jpg" title="The Girl:
 So it’s my name. "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -371,7 +412,7 @@ So it’s my name. "><div class="animating-width"></div>
 						<img src="image/img_022.jpg" title="Bo:
 Well First it’s your father’s name.
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -379,7 +420,7 @@ Well First it’s your father’s name.
 						<img src="image/img_030.jpg" title="The Girl:
 Not that I don’t like my mother’s name but I like my father’s name better yet I don’t get why I should have my father’s. And sometimes when I try to go through the names of my mother, grandmothers then actually I end up lost in a cemetery of first names I don’t know about, I mean what if I wouldn’t have any name what if I would choose my own names. 
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -388,7 +429,7 @@ Not that I don’t like my mother’s name but I like my father’s name better 
 I mean at this time it wasn’t really something we discussed because that’s how it works and everybody was happy about it so...
 Heredity was assure, the name would prosper and your parent’s project was a success. Your opinion was not really relevant at the time but... Now it’s your turn to choose. 
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -396,21 +437,21 @@ Heredity was assure, the name would prosper and your parent’s project was a su
 						<img src="image/img_033.jpg" title="The Girl:
 
 											What is there to choose? "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
 						</div>	<div class="loading">
 						<img src="image/img_025.jpg" title="Bo:
 Immortality"><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
 						</div>	<div class="loading">
 						<img src="image/img_027.jpg" title="The Girl
 I’m not sure if immortality would suit me."><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -419,7 +460,7 @@ I’m not sure if immortality would suit me."><div class="animating-width"></div
 As a girl you’re entitled to your biological destiny.
 Once a woman forever a womb. Bo was looking at her with malice
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -428,7 +469,7 @@ Once a woman forever a womb. Bo was looking at her with malice
 Will it be my utlimate goal then as a woman? To go 8 month on wales mode 2*. I mean woman don’t get pregnant every day like they did in prehistoric age. I can control my sexuality.
 I don’t get why, since we stop considering woman as static beings. Why do we still have this pressure of becoming mother.
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -437,7 +478,7 @@ I don’t get why, since we stop considering woman as static beings. Why do we s
 Virgin and mother like Marie was. There you would reach perfection.
 “ The Girl will be wife, mother, grandmother; she will take care of her house exactly as her mother does, she will take care of her children as she was taken care of: she is twelve years old, and her story is already written in the heavens; she will discover it day after day without shaping it; […]every of her step is planned in advance and toward which each day irrevocably moves her. ” 
 "><div class="animating-width"></div>
-						<div class="content" style="color: red" >
+						<div class="content" style="color: black" >
 							4 <p>…</p>
 						</div>
 
@@ -451,5 +492,6 @@ Virgin and mother like Marie was. There you would reach perfection.
 
 				</div>
 
+	
 			</body>
 			</html>
