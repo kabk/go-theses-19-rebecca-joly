@@ -3,7 +3,7 @@
 <html>
 <head>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 				
 			<script type="text/javascript" src= "jquery-3.3.1.min.js"></script>
@@ -20,7 +20,11 @@
 			$('.row').scrollLeft(loc);
 
 		}
-	
+		
+		// function changepic() {
+		// 	document.getElementById("nav").style.setProperty("top", "50%");
+		// }
+		
 
 
 	</script>
@@ -30,8 +34,8 @@
 <body>
 
 
-<div class="dropdown">
-  <img id= "emoji" src="image/fleur1.png" alt="which one?">
+<div class="dropdown" id="nav">
+  <img id= "emoji" src="image/fleur7.png" alt="which one?">
   <div class="dropdown-content">
   		<a href="file:///Users/rebeccajoly/Documents/GitHub/go-theses-19-rebecca-joly/index.html"><img id="img" src="image/img_00.jpg" alt="chp2, I'm the American Dream"></a>
 <!--   <div class="desc">I'm a virgin</div>
@@ -50,12 +54,13 @@
 
 	<div class="wrapper">		
 		<div class="text">
-
-			<a class="line" href="chp5.html">
-THE
+	<a> <div id="center">THE
 BIGGER
 THE 
-BETTER
+BETTER <br><br></div></a>	
+
+			<a class="line" href="chp5.html">
+
 				Chapter 4 Don’t take my pussy for your slippers
 
 			</a>
@@ -457,4 +462,14 @@ Once a woman forever a womb. Bo was looking at her with malice
 				</div>
 
 			</body>
+			<script type="text/javascript">
+			var w = $(window).width();
+		var h = $(window).height();
+		var d = document.getElementById('nav');
+		var divW = $(d).width();
+		var divH = $(d).height();
+
+		d.style.position="absolute";
+		d.style.top = (h/2)-(divH/2)+"px";
+		d.style.left = (w/2)-(divW/2)+"px";</script>
 			</html>
